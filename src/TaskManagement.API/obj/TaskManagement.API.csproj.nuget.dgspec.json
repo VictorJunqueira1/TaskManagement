@@ -1,19 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Victor\\Desktop\\TaskManager\\TaskManagement.API\\TaskManagement.API.csproj": {}
+    "C:\\Users\\Victor\\Desktop\\TaskManager\\src\\TaskManagement.API\\TaskManagement.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Victor\\Desktop\\TaskManager\\TaskManagement.API\\TaskManagement.API.csproj": {
+    "C:\\Users\\Victor\\Desktop\\TaskManager\\src\\TaskManagement.API\\TaskManagement.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Victor\\Desktop\\TaskManager\\TaskManagement.API\\TaskManagement.API.csproj",
+        "projectUniqueName": "C:\\Users\\Victor\\Desktop\\TaskManager\\src\\TaskManagement.API\\TaskManagement.API.csproj",
         "projectName": "TaskManagement.API",
-        "projectPath": "C:\\Users\\Victor\\Desktop\\TaskManager\\TaskManagement.API\\TaskManagement.API.csproj",
+        "projectPath": "C:\\Users\\Victor\\Desktop\\TaskManager\\src\\TaskManagement.API\\TaskManagement.API.csproj",
         "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Victor\\Desktop\\TaskManager\\TaskManagement.API\\obj\\",
+        "outputPath": "C:\\Users\\Victor\\Desktop\\TaskManager\\src\\TaskManagement.API\\obj\\",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -41,7 +40,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -54,6 +54,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[7.1.0, )"
             }
           },
           "imports": [
